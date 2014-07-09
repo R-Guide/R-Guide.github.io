@@ -98,6 +98,10 @@
         {
         /* your code goes here */ 
         });
+        $(document).on("click", "#ComFunc", function(evt)
+        {
+         activate_subpage("#CommonFunctions"); 
+        });
 }
  $(document).ready(register_event_handlers);
 })();
